@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon_1024.png" width="88" alt="Kimi Code Go 图标">
+</p>
+
 # Kimi Code Go
 
 一个轻量级 macOS 启动器，用于管理 Kimi Code Web 的本地服务。
@@ -31,6 +35,17 @@ cp -R "build/Kimi Code Go.app" /Applications/
 ```
 
 或直接双击运行 `build/Kimi Code Go.app`。
+
+### 首次打开时被 macOS 拦截
+
+当前发布包没有经过 Apple 公证，首次打开时 macOS 可能提示无法验证开发者。这不代表文件损坏，可以按以下步骤允许本 App：
+
+1. 解压后将 `Kimi Code Go.app` 拖入「应用程序」。
+2. 双击打开一次；如果出现安全提示，关闭提示窗口。
+3. 打开「系统设置 → 隐私与安全性」，在安全性区域找到 Kimi Code Go，点击「仍要打开」。
+4. 在再次出现的确认窗口中点击「打开」。
+
+部分 macOS 版本也可以右键点击 App，选择「打开」，再确认一次。无需关闭 Gatekeeper，也不要修改系统的全局安全设置。更新 App 后，系统可能会要求重新确认一次。
 
 ## 工作原理
 
